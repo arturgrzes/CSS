@@ -9,18 +9,25 @@ p {
 
 #paragraf {
     color: blue;
-    
 }
-    /* selektor klasy */
-    
-    .akapit{
-        color: yellow;
-        
-        
-    }
-    
+
+
+/* selektor klasy */
+
+.akapit {
+    color: yellow;
+}
+
+
 /* łączenie selektorów */
-a, span, div {
+
+a,
+span,
+div {
     color: green;
 }
- 
+
+/* selektor bezpośredniego elementu potomnego */
+li > a {
+    color: red;
+}

@@ -38,3 +38,8 @@ li>a {
 div a {
     color: brown;
 }
+
+/*selektor bliskiego rodzeństwa "+" */
+h2+h3{
+    color: chartreuse;
+}

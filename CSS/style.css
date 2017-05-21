@@ -1,0 +1,8 @@
+/* Selektor znacznika*/
+p {
+    color: orange;
+}
+/*selektor identyfikatora id */
+#paragraf {
+    color:blue;
+}

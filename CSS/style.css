@@ -53,3 +53,8 @@ h4 ~ p {
     color: darkorchid;
     
 }
+
+/* selektor wykluczający */
+ul > li:not(.last){
+    color: firebrick;
+}

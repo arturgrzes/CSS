@@ -27,7 +27,14 @@ div {
     color: green;
 }
 
+
 /* selektor bezpośredniego elementu potomnego */
-li > a {
+
+li>a {
     color: red;
+}
+/* selektor  elementu potomnego */
+
+div a {
+    color: brown;
 }

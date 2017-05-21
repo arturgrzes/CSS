@@ -33,13 +33,23 @@ div {
 li>a {
     color: red;
 }
+
+
 /* selektor  elementu potomnego */
 
 div a {
     color: brown;
 }
 
+
 /*selektor bliskiego rodzeństwa "+" */
-h2+h3{
+
+h2+h3 {
     color: chartreuse;
+}
+/* selektor  rodzeństwa  oddzielone znakiem "~"*/
+
+h4 ~ p {
+    color: darkorchid;
+    
 }
